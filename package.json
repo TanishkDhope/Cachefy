@@ -1,0 +1,35 @@
+{
+  "name": "cachefy",
+  "version": "1.0.3",
+  "description": "A lightweight caching proxy server for optimizing API requests and reducing load times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cache",
+    "proxy",
+    "server",
+    "caching",
+    "nodejs",
+    "performance",
+    "optimization",
+    "express",
+    "api",
+    "middleware"
+  ],
+  "author": "Tanishk Dhope",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "cfy": "index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "commander": "^13.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
